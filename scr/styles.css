@@ -804,3 +804,16 @@ body::-webkit-scrollbar-track {
     }     
     
 }   
+
+.proud-partner{
+    float: left;
+    color: var(--Grey-35, #AAA);
+    font-size: 14px;
+}
+
+.div-proud-partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
