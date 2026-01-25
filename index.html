@@ -98,6 +98,15 @@
             color: #475569;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
+
+        .tech-badge {
+            font-size: 0.65rem;
+            font-weight: 800;
+            padding: 2px 8px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }        
     </style>
 </head>
 <body class="bg-[#f8fafc] text-slate-900">
@@ -105,30 +114,28 @@
     <!-- Premium Navigation -->
     <nav class="fixed top-0 w-full glass-panel z-50 border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <span class="text-2xl font-extrabold tracking-tighter gradient-text">CK.DEV</span>
+            <span class="text-2xl font-extrabold tracking-tighter gradient-text">Cheasel Kim</span>
             <div class="hidden lg:flex space-x-10 font-semibold text-slate-500">
                 <a href="#home" class="hover:text-[#38b6ff] transition-all">Home</a>
                 <a href="#impact" class="hover:text-[#38b6ff] transition-all">Expertise</a>
                 <a href="#experience" class="hover:text-[#38b6ff] transition-all">Experience</a>
+                <a href="#portfolio" class="hover:text-[#38b6ff] transition-all">Portfolio</a>
+                <a href="#stack" class="hover:text-[#38b6ff] transition-all">Tech Stack</a>
             </div>
             <div class="flex items-center space-x-4">
-                <div class="hidden xl:flex items-center space-x-2 mr-4">
-                    <span class="flag-tag">🇵🇭 PH</span>
-                    <span class="flag-tag">🇦🇺 AU</span>
-                </div>
-                <button class="bg-[#38b6ff] text-white px-6 py-2.5 rounded-full font-bold hover:shadow-lg hover:shadow-sky-200 transition-all">Hire Cheasel Kim</button>
+                <a href="mailto:ck.caparal26@gmail.com" class="bg-[#38b6ff] text-white px-6 py-2.5 rounded-full font-bold hover:shadow-lg hover:shadow-sky-200 transition-all">Hire Me!</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- HOME -->
     <header id="home" class="min-h-screen flex flex-col items-center justify-center pt-24 px-6 text-center relative overflow-hidden">
         <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-sky-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
         <div class="absolute bottom-1/4 right-1/4 w-64 h-64 bg-teal-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse" style="animation-delay: 2s;"></div>
 
         <div class="animate-float mb-10 relative">
             <div class="w-44 h-44 rounded-[2.5rem] bg-gradient-to-br from-[#38b6ff] to-blue-600 flex items-center justify-center text-7xl shadow-[0_20px_50px_rgba(56,182,255,0.4)]">
-                👩🏽‍💻
+                👩🏻‍💻
             </div>
             <div class="absolute -bottom-4 -right-4 bg-white p-3 rounded-2xl shadow-xl flex items-center space-x-2 border border-slate-100">
                 <span class="flex h-3 w-3 relative">
@@ -140,10 +147,10 @@
         </div>
 
         <h1 class="text-5xl md:text-8xl font-extrabold mb-6 tracking-tight leading-none">
-            Building high-performance <br><span class="gradient-text">global ERP systems.</span>
+            Building high-performance <br><span class="gradient-text">Global Business Solutions.</span>
         </h1>
         <p class="text-xl md:text-2xl text-slate-500 mb-10 max-w-3xl leading-relaxed">
-            I'm <span class="font-bold text-slate-800">Cheasel Kim</span>, a Senior Full Stack PHP Developer & ERP Architect. I engineer cross-border solutions for 
+            I'm <span class="font-bold text-slate-800">Cheasel Kim</span>, a Senior Full Stack Web Application Developer. <br> I engineer cross-border solutions for 
             <span id="typing-text" class="text-[#38b6ff] font-bold typewriter"></span>
         </p>
         
@@ -153,7 +160,7 @@
         </div>
     </header>
 
-    <!-- Multi-Industry Impact -->
+    <!-- EXPERTISE -->
     <section id="impact" class="py-32 px-6 reveal">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-20">
@@ -181,13 +188,13 @@
                 <div class="p-8 bg-white rounded-[2.5rem] border border-slate-100 shadow-sm card-hover text-center">
                     <div class="w-14 h-14 bg-indigo-50 rounded-2xl flex items-center justify-center text-2xl mb-6 mx-auto">🏦</div>
                     <h4 class="text-xl font-bold mb-2">Financial</h4>
-                    <p class="text-sm text-slate-500">Accounting & Ledger management.</p>
+                    <p class="text-sm text-slate-500">Accounting & Cashflow management.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience: Technical Focus -->
+    <!-- EXPERIENCE -->
     <section id="experience" class="py-32 px-6 bg-slate-900 text-white reveal">
         <div class="max-w-5xl mx-auto">
             <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
@@ -253,6 +260,10 @@
                         </li>
                         <li class="flex items-start">
                             <span class="text-slate-700 mr-3 font-bold">▹</span>
+                            <span>Study BACnet systems and advise on leveraging building automation data for AI and machine learning applications.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-slate-700 mr-3 font-bold">▹</span>
                             <span>Collaborate with the development team to test, ideate, and enhance software features.</span>
                         </li>
                         <li class="flex items-start">
@@ -261,7 +272,7 @@
                         </li>
                         <li class="flex items-start">
                             <span class="text-slate-700 mr-3 font-bold">▹</span>
-                            <span>Use Python to generate automated reports, improving data analysis and decision-making.</span>
+                            <span>Use Python to analyze per-minute system data, testing and validating machine learning solutions.</span>
                         </li>
                         <li class="flex items-start">
                             <span class="text-slate-700 mr-3 font-bold">▹</span>
@@ -278,7 +289,7 @@
                     <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-slate-700 group-hover:bg-slate-500 transition-all"></div>
                     <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
                         <h4 class="text-2xl font-bold">Lead & Principal Developer – ERP, CRM, and Sales Applications</h4>
-                        <span class="px-4 py-1 rounded-full bg-slate-800 text-slate-400 text-sm font-bold">2019 — 2021</span>
+                        <span class="px-4 py-1 rounded-full bg-slate-800 text-slate-400 text-sm font-bold">2018 — 2021</span>
                     </div>
                     <p class="text-slate-400 font-bold text-lg mb-6">Zugriff Corporation (Pasig, Philippines)</p>
                     <ul class="text-slate-500 space-y-4 list-none text-lg">
@@ -313,7 +324,7 @@
                     <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-slate-700 group-hover:bg-slate-500 transition-all"></div>
                     <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
                         <h4 class="text-2xl font-bold">Full Stack Developer / System Analyst</h4>
-                        <span class="px-4 py-1 rounded-full bg-slate-800 text-slate-400 text-sm font-bold">2018 — 2019</span>
+                        <span class="px-4 py-1 rounded-full bg-slate-800 text-slate-400 text-sm font-bold">2018 — 2021</span>
                     </div>
                     <p class="text-slate-400 font-bold text-lg mb-6">Philsteel Holdings Corporation (Makati, Philippines)</p>
                     <ul class="text-slate-500 space-y-4 list-none text-lg">
@@ -341,66 +352,298 @@
         </div>
     </section>
 
-    <!-- Tech Dashboard -->
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="py-32 px-6 bg-white reveal">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-sm font-black text-[#38b6ff] uppercase tracking-[0.3em] mb-4">Portfolio</h2>
+                <h3 class="text-4xl md:text-5xl font-bold tracking-tight text-slate-900">Business Management Solutions</h3>
+                <p class="mt-4 text-slate-500 max-w-2xl mx-auto">Scalable enterprise systems deployed across AU, US and PH markets.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="flex flex-col bg-slate-50 rounded-[2.5rem] overflow-hidden border border-slate-100 card-hover transition-all group">
+                    <div class="h-56 bg-gradient-to-br from-[#38b6ff] to-blue-700 flex items-center justify-center relative overflow-hidden">
+                        <span class="text-7xl group-hover:scale-110 transition-transform duration-500">📚</span>
+                        <div class="absolute bottom-4 left-4 flex gap-2">
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">Laravel</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">Vue.js</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">Paypal</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <h4 class="text-2xl font-bold mb-3">Indie Comic Stream Platform</h4>
+                        <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+                            A web-based Comic Stream Platform designed to deliver a seamless digital reading experience for comic enthusiasts. The system allows users to browse, stream, and manage comic content across multiple genres, while also enabling any user to upload and publish their own comic content. It features a coin-based purchasing system integrated with PayPal, along with content categorization and reading history tracking. Built with a scalable architecture to ensure smooth performance, efficient content delivery, and an engaging user experience across devices.
+                        </p>
+                        <div class="pt-4 border-t border-slate-200 flex flex-wrap gap-2">
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">PHP 8.x</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Vue JS</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Vuetify</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">MySQL</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Paypal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-slate-50 rounded-[2.5rem] overflow-hidden border border-slate-100 card-hover transition-all group">
+                    <div class="h-56 bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center relative overflow-hidden">
+                        <span class="text-7xl group-hover:scale-110 transition-transform duration-500">🏗️</span>
+                        <div class="absolute bottom-4 left-4 flex gap-2">
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">CodeIgniter 3</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">jQuery</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">Xero</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <h4 class="text-2xl font-bold mb-3">Construction Management System</h4>
+                        <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+                            A centralized web-based platform designed to manage end-to-end solar construction projects, from planning to installation. The system supports compliance requirements, ensures accurate project tracking, and optimizes operational efficiency, while also integrating inventory management, cashflow monitoring, and financial forecasting. Built on a lightweight CodeIgniter 3 (CI3) architecture for fast data processing and scalability.
+                        </p>
+                        <div class="pt-4 border-t border-slate-200 flex flex-wrap gap-2">
+                            <span class="tech-badge bg-slate-200 text-slate-700">PHP</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">MySQL</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">Bootstrap</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">Digital Ocean</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">Xero</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">Nginx</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-slate-50 rounded-[2.5rem] overflow-hidden border border-slate-100 card-hover transition-all group">
+                    <div class="h-56 bg-gradient-to-br from-[#0ea5e9] to-[#38b6ff] flex items-center justify-center relative overflow-hidden">
+                        <span class="text-7xl group-hover:scale-110 transition-transform duration-500">📊</span>
+                        <div class="absolute bottom-4 left-4 flex gap-2">
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">CodeIgniter 3</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">jQuery</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">Facebook API</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <h4 class="text-2xl font-bold mb-3">Lead & Pipeline Management</h4>
+                        <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+                            A Lead & Pipeline Management Platform designed to streamline sales and client management. The system allows users to automatically capture leads from Facebook and websites via API integration, adding them directly into their pipelines. It also enables teams to create proposals and contracts, track interactions, monitor deal progress, log activities, and generate reports through a centralized dashboard, improving efficiency and conversion rates. The platform also supports contracts with digital signatures, which, once signed, are automatically added to the Construction Management System.
+                        </p>
+                        <div class="pt-4 border-t border-slate-200 flex flex-wrap gap-2">
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">PHP</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">MySQL</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Bootstrap</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Digital Ocean</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Nginx</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-slate-50 rounded-[2.5rem] overflow-hidden border border-slate-100 card-hover transition-all group">
+                    <div class="h-56 bg-gradient-to-br from-[#0ea5e9] to-[#38b6ff] flex items-center justify-center relative overflow-hidden">
+                        <span class="text-7xl group-hover:scale-110 transition-transform duration-500">📊</span>
+                        <div class="absolute bottom-4 left-4 flex gap-2">
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">Grafana</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">Prometheus</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <h4 class="text-2xl font-bold mb-3">Real-Time Data Visualization and Insights with Grafana</h4>
+                        <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+                            A custom data monitoring system was designed and implemented using Grafana. Queries were created to analyze and visualize various types of data, including weather, room temperature, occupancy patterns using ML models, and setpoints for building systems. Interactive dashboards were set up to display real-time trends, correlate environmental conditions with occupancy, and provide actionable insights. The work demonstrates the ability to transform raw data into meaningful visualizations, optimize monitoring processes, and leverage Grafana’s query and dashboard capabilities to support informed decision-making.
+                        </p>
+                        <div class="pt-4 border-t border-slate-200 flex flex-wrap gap-2">
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Grafana</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Prometheus</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-slate-50 rounded-[2.5rem] overflow-hidden border border-slate-100 card-hover transition-all group">
+                    <div class="h-56 bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center relative overflow-hidden">
+                        <span class="text-7xl group-hover:scale-110 transition-transform duration-500">🛒</span>
+                        <div class="absolute bottom-4 left-4 flex gap-2">
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">CodeIgniter 3</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">jQuery</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">Paypal</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <h4 class="text-2xl font-bold mb-3">Outletko: E-Commerce Management Platform</h4>
+                        <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+                            Outletko: An eCommerce Management Platform designed to streamline online sales and store management. The system allows users to manually add and manage products, including descriptions, pricing, images, and stock levels. It enables teams to track inventory, process orders, manage customer interactions, monitor order status, log activities, and generate reports through a centralized dashboard, improving efficiency and sales performance. The platform also supports secure digital payments, automated invoicing, and seamless integration with logistics and inventory systems.
+                        </p>
+                        <div class="pt-4 border-t border-slate-200 flex flex-wrap gap-2">
+                            <span class="tech-badge bg-slate-200 text-slate-700">PHP</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">MySQL</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">Bootstrap</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">CPanel</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">Apache</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-slate-50 rounded-[2.5rem] overflow-hidden border border-slate-100 card-hover transition-all group">
+                    <div class="h-56 bg-gradient-to-br from-teal-500 to-[#38b6ff] flex items-center justify-center relative overflow-hidden">
+                        <span class="text-7xl group-hover:scale-110 transition-transform duration-500">🛒</span>
+                        <div class="absolute bottom-4 left-4 flex gap-2">
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">CodeIgniter 3</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">jQuery</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">Paypal</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <h4 class="text-2xl font-bold mb-3">Outletsuite: Micro-Retail Hub</h4>
+                        <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+                            Outletsuite: A Micro-Retail Hub Platform designed to streamline small-scale retail operations. The system allows users to manually add and manage products, including descriptions, pricing, images, and stock levels. It enables teams to monitor inventory across multiple micro-outlets, manage orders, schedule dispatching, track customer interactions, log activities, and generate detailed sales and performance reports through a centralized dashboard, improving operational efficiency, reducing stock shortages, and boosting sales performance.
+                        </p>
+                        <div class="pt-4 border-t border-slate-200 flex flex-wrap gap-2">
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">PHP</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">MySQL</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Bootstrap</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">CPanel</span>
+                            <span class="tech-badge bg-sky-100 text-[#38b6ff]">Apache</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-slate-50 rounded-[2.5rem] overflow-hidden border border-slate-100 card-hover transition-all group">
+                    <div class="h-56 bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center relative overflow-hidden">
+                        <span class="text-7xl group-hover:scale-110 transition-transform duration-500">🏭</span>
+                        <div class="absolute bottom-4 left-4 flex gap-2">
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">CodeIgniter 3</span>
+                            <span class="tech-badge bg-white/20 text-white backdrop-blur-md">jQuery</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <h4 class="text-2xl font-bold mb-3">Inventory Management System</h4>
+                        <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+                            An Inventory Management System designed to streamline the manufacturing of steel and roofing materials. The system allows users to manage raw materials, finished products, and components by manually adding inventory data, including quantities, specifications, and storage locations. It also tracks recycled materials and scraps, ensuring efficient reuse and minimizing waste. Teams can monitor stock levels and inventory movements across multiple plants, manage orders, schedule dispatching, log production activities, and generate detailed reports through a centralized dashboard, improving operational efficiency, reducing material loss, and optimizing manufacturing processes.
+                        </p>
+                        <div class="pt-4 border-t border-slate-200 flex flex-wrap gap-2">
+                            <span class="tech-badge bg-slate-200 text-slate-700">PHP</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">MySQL</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">Bootstrap</span>
+                            <span class="tech-badge bg-slate-200 text-slate-700">Apache</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TECH STACK -->
     <section id="stack" class="py-32 px-6 bg-white reveal">
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-5xl mx-auto">
             <div class="bg-slate-50 rounded-[3rem] p-12 border border-slate-100">
                 <h3 class="text-3xl font-bold mb-10 text-center">Technical Competencies</h3>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=f0R4xVI4Sc8O&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">PHP</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
                         <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=lRjcvhvtR81o&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
                         <span class="font-bold text-sm">Laravel</span>
                     </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
                         <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=r4UrHt1gLC2t&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
                         <span class="font-bold text-sm">CodeIgniter</span>
                     </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
-                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
-                        <span class="font-bold text-sm">Node JS</span>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Javascript</span>
                     </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
-                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
-                        <span class="font-bold text-sm">Vue.js</span>
-                    </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
-                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
-                        <span class="font-bold text-sm">Bootstrap</span>
-                    </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
-                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
-                        <span class="font-bold text-sm">Tailwind CSS</span>
-                    </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
                         <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=HKNzD81eiiSc&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
                         <span class="font-bold text-sm">jQuery</span>
                     </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Node JS</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Vue.js</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://icon.icepanel.io/Technology/svg/Azios.svg" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Axios</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">AJAX</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Bootstrap</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Tailwind CSS</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://icon.icepanel.io/Technology/svg/Veutify.svg" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Vuetify</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
                         <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=hYoELNwniGhi&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
                         <span class="font-bold text-sm">MySQL</span>
                     </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
                         <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
                         <span class="font-bold text-sm">SQL Server</span>
                     </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
                         <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=NTk60lqGX88D&format=png&color=0069ff" alt="" height="40px" srcset="" style="height:40px;"></span>
                         <span class="font-bold text-sm">DigitalOcean</span>
                     </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
                         <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=t2x6DtCn5Zzx&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
                         <span class="font-bold text-sm">Nginx</span>
                     </div>
-                    <div class="flex flex-col items-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
                         <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=OrZMxhqm7nsr&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
                         <span class="font-bold text-sm">Apache</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=6WbypxLnLs37&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Grafana</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://icon.icepanel.io/Technology/svg/Postman.svg" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Postman</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://icon.icepanel.io/Technology/svg/Git.svg" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Git</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=RduYmqw5H7xm&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Atlassian</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=Uw4W19UeRVrs&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Xero API</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=13611&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Paypal API</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/1280px-Stripe_Logo%2C_revised_2016.svg.png" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">Stripe API</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
+                        <span class="text-4xl mb-3"><img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="" height="40px" srcset="" style="height:40px;"></span>
+                        <span class="font-bold text-sm">VS Code</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Final CTA -->
+
+    <!-- FINAL -->
     <section id="contact" class="py-32 px-6 bg-gradient-to-b from-white to-sky-50">
         <div class="max-w-4xl mx-auto glass-panel p-16 rounded-[4rem] text-center shadow-2xl reveal">
             <h2 class="text-5xl font-extrabold mb-6 tracking-tight leading-tight">Ready to build your next <br><span class="text-[#38b6ff]">ERP innovation?</span></h2>
@@ -420,15 +663,15 @@
     </section>
 
     <footer class="py-12 border-t border-slate-100 text-center text-slate-400">
-        <p>2026 Cheasel Kim | CRM & ERP Development Engineer</p>
+        <p>Cheasel Kim | CRM & ERP Development Engineer</p>
     </footer>
 
     <script>
         const roles = [
-            "Manufacturing & Construction ERPs.", 
+            "Manufacturing & Construction CRMs.", 
             "Retail, Sales & Financial Solutions.",
-            "Scalable Full Stack Architectures.", 
-            "Enterprise PHP Development in PH & AU."
+            "Data Analytics and Business Intelligence", 
+            "help businesses streamline operations, optimize workflows, and manage clients efficiently."
         ];
         let roleIndex = 0;
         let charIndex = 0;
